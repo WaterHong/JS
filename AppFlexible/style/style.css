@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.header {
+  background-color: #e60a3b;
+  text-align: center; }
+
+/*<img>被<h2>包住,因此用text-aline居中*/
+.header img {
+  width: 10rem; }
+
+.flag-item img {
+  width: 2.4rem;
+  height: 2.4rem;
+  vertical-align: top; }
+
+.html_content ul {
+  border: solid #e60a3b 0.1rem; }
+
+.flag {
+  width: 100%;
+  border-bottom: solid #e60a3b 1px;
+  padding: 10px 0; }
+  .flag .flag-item {
+    display: table-cell;
+    /* 横排对齐可以用display: table-cell */ }
+  .flag .flag-title a {
+    color: #333;
+    line-height: 1.25;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    box-orient: vertical;
+    display: -webkit-box; }
+  .flag .figcaption {
+    width: 133.333333rem;
+    padding: 0 0.2rem;
+    position: relative;
+    /* .figcaption 需要被设定宽度，否则在ipad显示很小*/ }
+
+.flag-price {
+  padding: 0.15rem 0 .2rem; }
+  .flag-price span {
+    background-color: #e60a3b;
+    color: #ffffff;
+    padding: 0.1rem;
+    line-height: 1.25; }
+  .flag-price strong, .flag-price small {
+    color: #e60a3b; }
+
+.flag-type {
+  color: #ff3600; }
+
+.flag-btn {
+  background-color: #e60a3b;
+  padding: 0.15rem;
+  width: 2.13333rem;
+  height: 0.44rem;
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: .44rem;
+  color: #ffffff;
+  position: absolute;
+  right: 0.2rem;
+  bottom: 0.1rem; }
+
+/* 用line-height设置文字的位置*/
+/* width、height、line-height、padding、margin、position的参数用rem设,字体用px设 */
+
+/*# sourceMappingURL=style.css.map */
